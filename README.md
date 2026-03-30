@@ -12,6 +12,11 @@
 - [aliases.md](git/aliases.md) — Git エイリアス（ショートカットコマンド）の設定ガイド
 - [wsl2-initial-setup.md](git/wsl2-initial-setup.md) — WSL2 Ubuntu での GitHub 認証（Fine-grained Token）セットアップ手順
 
+### Agent
+
+- [skills-sh.md](agent/skills-sh.md) — skills.sh（Vercel 運営の AI エージェントスキルディレクトリ）の概要
+- [npx-skills.md](agent/npx-skills.md) — npx skills CLI による Agent Skill の管理方法
+
 ### GitHub Copilot
 
 - [copilot-instructions.md](github/copilot/instructions/copilot-instructions.md) — GitHub Copilot のカスタム指示（日本語エンタープライズ開発向け）
