@@ -3,14 +3,14 @@
 ## 目的
 
 - 作業効率化のために作成したメモを残す
-- LLMを利用して作成している利用前に検証が必須
+- LLMを利用して作成しているため、利用前に検証が必須
 
 ## コンテンツ
 
 ### Git
 
 - [aliases.md](git/aliases.md) — Git エイリアス（ショートカットコマンド）の設定ガイド
-- [wsl2-initail-setup.md](git/wsl2-initail-setup.md) — WSL2 Ubuntu での GitHub 認証（Fine-grained Token）セットアップ手順
+- [wsl2-initial-setup.md](git/wsl2-initial-setup.md) — WSL2 Ubuntu での GitHub 認証（Fine-grained Token）セットアップ手順
 
 ### GitHub Copilot
 
