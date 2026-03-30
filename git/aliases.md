@@ -21,8 +21,8 @@ git config --global alias.<エイリアス名> '<元のコマンド>'
 
 ```ini
 [alias]
-    st = status
-    co = checkout
+	st = status
+	co = checkout
 ```
 
 ---
@@ -125,37 +125,37 @@ git config --global alias.alias '!git config --get-regexp ^alias\.'
 
 ```ini
 [alias]
-    # 基本コマンドの短縮
-    st     = status
-    co     = checkout
-    sw     = switch
-    br     = branch
-    ci     = commit
-    cm     = commit -m
-    df     = diff
-    ad     = add -A
+	# 基本コマンドの短縮
+	st     = status
+	co     = checkout
+	sw     = switch
+	br     = branch
+	ci     = commit
+	cm     = commit -m
+	df     = diff
+	ad     = add -A
 
-    # ログ
-    last   = log -1 HEAD
-    lg     = log --oneline --graph --decorate --all
-    lgg    = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	# ログ
+	last   = log -1 HEAD
+	lg     = log --oneline --graph --decorate --all
+	lgg    = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 
-    # コミット修正
-    amend  = commit --amend --no-edit
-    reword = commit --amend
+	# コミット修正
+	amend  = commit --amend --no-edit
+	reword = commit --amend
 
-    # ステージ操作
-    unstage = reset HEAD --
+	# ステージ操作
+	unstage = reset HEAD --
 
-    # スタッシュ
-    sta    = stash
-    stp    = stash pop
+	# スタッシュ
+	sta    = stash
+	stp    = stash pop
 
-    # プッシュ
-    poh    = push origin HEAD
+	# プッシュ
+	poh    = push origin HEAD
 
-    # エイリアス一覧
-    alias  = !git config --get-regexp ^alias\.
+	# エイリアス一覧
+	alias  = !git config --get-regexp ^alias\\.
 ```
 
 ---
